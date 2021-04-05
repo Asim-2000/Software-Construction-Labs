@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>
-        Hello World!
+        My Practice Quiz!
       </h1>
     </div>
   );
