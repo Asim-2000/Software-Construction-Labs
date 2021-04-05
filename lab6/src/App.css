@@ -1,0 +1,47 @@
+
+
+h2 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.Header {
+  padding-top: 0;
+  height: 600px;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-image: url("Little_Nightmares.jpg");
+}
+
+.AboutUs {
+  height: 300px;
+  background-color: DarkSlateGray;
+  position: relative;
+}
+
+.WhatWeDo {
+  height: auto;
+  background-color: DarkOliveGreen;
+  position: relative;
+}
+
+.AboutUs::before {
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+  content: "";
+  background-color: DarkSlateGray;
+  position: absolute;
+}
+
+.WhatWeDo::before {
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+  content: "";
+  background-color: DarkOliveGreen;
+  position: absolute; 
+}
