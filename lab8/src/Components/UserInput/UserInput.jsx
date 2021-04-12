@@ -4,7 +4,7 @@ import React from 'react'
 const UserInput = props => {
   
   const inputStyles = {
-    border: '2px solid red',
+    border: '2px solid blue',
   }
   const labelStyles = {
     fontWeight: 'bold',

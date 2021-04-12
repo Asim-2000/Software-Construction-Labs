@@ -4,8 +4,8 @@ import './UserOutput.css'
 const UserOutput=props=> {
   return (
       <div className="UserOutput">
-          <p>UserName:{ props.username }</p>
-          <p>Random Text Part 2</p>
+          <p>UserName (Will be changed): { props.username }</p>
+          <p>Random Text Here (I wont Change)</p>
       
     </div>
   )
