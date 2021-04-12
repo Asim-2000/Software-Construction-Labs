@@ -12,12 +12,10 @@ const character = (props) => {
     }
 
     return (
-        <div style={styles} onClick={props.clicked}>
-            
-            {props.char}
-
-        </div>
-    )
+      <div style={styles} onClick={props.clicked}>
+        {props.char}
+      </div>
+    );
   
     
 };

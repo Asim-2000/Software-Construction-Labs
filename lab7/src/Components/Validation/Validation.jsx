@@ -9,10 +9,10 @@ const Validation = (props) => {
     }
 
     return (
-        <div>
-            {validationMessage}
-        </div>
-    )
+      <div>
+         {validationMessage}
+      </div>
+    );
 
     
 }

@@ -64,15 +64,20 @@ class App extends Component {
         </ol>
         <p>Hint: Keep in mind that JavaScript strings are basically arrays!</p>
         <hr />
+        <label className="label"> User Input Here: </label>
         <input
           type="text"
           onChange={this.inputChangedHandler}
           value={this.state.userInput}
         />
-          
+
         <p>{this.state.userInput}</p>
 
+        <label className="label">Validation: </label>
+
         <Validation length={this.state.userInput.length} />
+        <label className="label">Character List (Click on a character to see the magic !) </label>
+        <br />
         {charList}
       </div>
     );
