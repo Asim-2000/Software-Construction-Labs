@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function UserOutput(props) {
+const UserOutput=props=> {
   return (
       <div>
           <p>UserName:{ props.username }</p>
@@ -9,3 +9,5 @@ export default function UserOutput(props) {
     </div>
   )
 }
+
+export default UserOutput;
