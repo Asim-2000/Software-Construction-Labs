@@ -1,8 +1,9 @@
 import React from 'react'
+import './UserOutput.css'
 
 const UserOutput=props=> {
   return (
-      <div>
+      <div className="UserOutput">
           <p>UserName:{ props.username }</p>
           <p>Random Text Part 2</p>
       

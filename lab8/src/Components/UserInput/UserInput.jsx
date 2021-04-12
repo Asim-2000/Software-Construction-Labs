@@ -1,11 +1,21 @@
 import React from 'react'
 
-const UserInput=props=> {
+
+const UserInput = props => {
+  
+  const inputStyles = {
+    border: '2px solid red',
+  }
+  const labelStyles = {
+    fontWeight: 'bold',
+  }
   return (
-      <div>
-          
+    <div>
+    
+      <label style={ labelStyles}>User Input Here: </label>
           <input
-              type="text"
+        type="text"
+        style={inputStyles}
               onChange={props.changed}
               current={props.currentName}
           ></input>
