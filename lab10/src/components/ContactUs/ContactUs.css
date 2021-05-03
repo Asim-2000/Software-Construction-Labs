@@ -51,3 +51,8 @@ textarea
   margin:5px 0;
   padding:3px;
 }
+
+.form__header{
+    text-align: center;
+    font-size: 2rem;
+}

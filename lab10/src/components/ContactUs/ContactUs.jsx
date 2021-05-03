@@ -12,7 +12,13 @@ function ContactUs() {
   const onSubmit = (data) => console.log(data);
 
     return (
-      <div className="form__container">
+        <div className="form__container">
+            
+            <div className="form__header">
+                
+                GET IN TOUCH
+
+            </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-control ">
             <label>Name</label>
@@ -46,8 +52,7 @@ function ContactUs() {
                     <input
                     type='text'
               {...register("contact", {
-                required: true,
-                pattern: /^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/,
+                required: true
               })}
             />
             {errors.contact && errors.contact.type === "required" && (
