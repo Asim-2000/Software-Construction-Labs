@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import Cards from '../../components/Card/Cards'
+import ContactUs from '../../components/ContactUs/ContactUs'
 import HeroSection from '../../components/HeroSection/HeroSection'
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <>
       
       <HeroSection />
-      <Cards/>
+      <Cards />
+      <ContactUs/>
           
     </>
   )

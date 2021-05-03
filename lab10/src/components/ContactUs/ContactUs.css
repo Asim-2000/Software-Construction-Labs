@@ -1,0 +1,53 @@
+/* .form__container{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.form-control{
+    align-items: center;
+} */
+
+/* Add a background color and some padding around the form */
+.form__container {
+  border-radius: 5px;
+  background-color: #5611ce63;
+  padding: 20px;
+  color: white;
+}
+
+input[type=text] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid rgb(115, 195, 233); /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #151b19;
+  color: white;
+  padding: 14px 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ margin: auto;
+ display: block;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #4e75a8;
+}
+
+textarea
+{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+}
