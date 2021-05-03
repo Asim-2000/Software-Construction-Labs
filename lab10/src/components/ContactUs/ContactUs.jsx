@@ -9,7 +9,7 @@ function ContactUs() {
     // watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+    const onSubmit = () => alert("Submitted");
 
     return (
         <div className="form__container">
