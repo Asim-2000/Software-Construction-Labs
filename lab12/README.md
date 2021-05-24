@@ -1,0 +1,1 @@
+## SC LAB 12 (GraphQL Lab 2)
